@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Современные технологии</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet"> 
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+  <div class="hamburger-menu__section">
+    <div class="container">
+      <div class="hamburger-menu__content">
+        <!-- <div class="hamburger-multi__lang multi-lang">
+          <a href="#" class="lang__ru">RU</a><span> | </span><a href="#" class="lang__en">EN</a>
+        </div> -->
+        <ul class="hamburger-menu__content-menu menu__list">
+          <li><a href="#header">Главная</a></li>
+          <li><a href="#services">Сервисы</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo"><a href="#" class="logo">TeCh</a></div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#header" id="menuHeader" class="menu__link">Главная</a></li>
+            <li class="menu__item"><a href="#services" id="menuServices" class="menu__link">Сервисы</a></li>
+            <li class="menu__item"><a href="#portfolio" id="menuPortfolio" class="menu__link">Портфолио</a></li>
+            <li class="menu__item"><a href="#contact" id="menuContact" class="menu__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="multi-lang">
+          <a href="#" class="lang__ru">RU</a><span> | </span><a href="#" class="lang__en">EN</a>
+        </div>
+        <div class="hamburger-menu">
+          <a href="#" id="hamburgerBtn" class="hamburger__link">
+            <span class="hamburger__item"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <section class="wrapper">
+    <div class="container">
+      <div class="wrapper-content">
+        <div class="wrapper-content__info">
+          <div class="wrapper-content__info-title">
+            Современные технологии
+          </div>
+          <div class="wrapper-content__info-text">
+            <p>Современные технологии стали неотъемлемой частью жизни не только отдельно взятого человека, но и всего общества в целом.</p>
+          </div>
+          <div class="wrapper-content__info-btn">
+            <a id="wrapperContentBtn" href="#contact">Связаться</a>
+          </div>
+          <div class="wrapper-social">
+            <a href="#" target="_blank"><img src="img/telegram.svg" alt="face" class="wrapper-social__img"></a>
+            <a href="#" target="_blank"><img src="img/instagram.svg" alt="insta" class="wrapper-social__img"></a>
+            <a href="#" target="_blank"><img src="img/vk.svg" alt="vk" class="wrapper-social__img"></a>
+          </div>
+        </div>
+        <div class="wrapper-content__img">
+          <img src="img/wrapper-illustration.png" alt="">
+        </div>
+      </div>
+      <div id="downArrows" class="animated fadeInDown down-arrows">
+        <a id="downArrowsLink" href="#services"><img src="img/down-arrows.svg" alt="DOWN"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <!-- <div class="vawe"><img src="img/vawe.png" alt="vawe"class="vawe__img" ></div> -->
+    
+    
+    <div class="container services-container">
+      <div class="services-title">Сервисы</div>
+      <div class="services-cards cards-top">
+        <div class="wow slideInRight services-card">
+          <img src="img/card-img.svg" alt="card" class="services-card__img">
+          <h6>Web Design</h6>
+          <p class="services-card__text">
+            Веб-дизайн — отрасль веб-разработки и разновидность дизайна
+          </p>
+          <a id="webDesignBtn" href="#" class="services-card__btn">Больше</a>
+        </div>
+        <div class="services-card">
+          <img src="img/html-card.svg" alt="card" class="services-card__img">
+          <h6>HTML & CSS верстка</h6>
+          <p class="services-card__text">
+            Верстка сайта — в результате макет превращается в HTML и CSS-код
+          </p>
+          <a id="htmlBtn" href="#" class="services-card__btn">Больше</a>
+        </div>
+        <div class="services-card">
+          <img src="img/adaptive-card.svg" alt="card" class="services-card__img">
+          <h6>Адаптивная верстка</h6>
+          <p class="services-card__text">
+            Адаптивный сайт коректно отображается на различных устройствах
+          </p>
+          <a id="adaptiveBtn" href="#" class="services-card__btn">Больше</a>
+        </div>
+      </div>
+      <div class="services-cards cards-bottom">
+        <div class="services-card">
+          <img src="img/wordpress-card.svg" alt="card" class="services-card__img">
+          <h6>WordPress</h6>
+          <p class="services-card__text">
+            На сегодня WordPress самая популярная система управления контентом
+          </p>
+          <a id="wordpressBtn" href="#" class="services-card__btn">Больше</a>
+        </div>
+        <div class="services-card">
+          <img src="img/landingpage-card.svg" alt="card" class="services-card__img">
+          <h6>Landing Page</h6>
+          <p class="services-card__text">
+            Целевая страница — веб-страница, основной задачей которой является сбор контактных данных
+          </p>
+          <a id="landingBtn" href="#" class="services-card__btn">Больше</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="portfolio-title">
+        Портфолио
+      </div>
+      <ul class="portfolio-filter">
+        <li class="portfolio-filter__item"><a href="#" data-filter="all" id="all" class="portfolio-filter__active portfolio-filter__link">Все</a></li>
+        <li class="portfolio-filter__item"><a href="#" data-filter="design" id="design" class="portfolio-filter__link">Дизайн</a></li>
+        <li class="portfolio-filter__item"><a href="#" data-filter="html" id="html" class="portfolio-filter__link">Верстка</a></li>
+        <li class="portfolio-filter__item" style="margin: 0;"><a href="#" id="key" data-filter="key" class="portfolio-filter__link">WP</a></li>
+      </ul>
+      <div class="portfolio-content">
+          <div data-groups="key" class="portfolio-item html">
+            <a href="#" class="portfolio-item__link"><img src="img/portfolio.png" alt="" class="portfolio-item__img">
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay__content">
+                  Открыть
+                </div>
+              </div>
+            </a>
+          </div>
+          <div data-groups="design" class="portfolio-item html">
+            <a href="#" class="portfolio-item__link"><img src="img/portfolio.png" alt="" class="portfolio-item__img">
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay__content">
+                  Открыть
+                </div>
+              </div>
+            </a>
+          </div>
+          <div data-groups="html" class="portfolio-item design">
+            <a href="#" class="portfolio-item__link"><img src="img/portfolio.png" alt="" class="portfolio-item__img">
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay__content">
+                  Открыть
+                </div>
+              </div>
+            </a>
+          </div>
+          <div data-groups="key" class="portfolio-item key">
+            <a href="#" class="portfolio-item__link"><img src="img/portfolio.png" alt="" class="portfolio-item__img">
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay__content">
+                  Открыть
+                </div>
+              </div>
+            </a>
+          </div>
+          <div data-groups="design" class="portfolio-item key">
+            <a href="#" class="portfolio-item__link"><img src="img/portfolio.png" alt="" class="portfolio-item__img">
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay__content">
+                  Открыть
+                </div>
+              </div>
+            </a>
+          </div>
+          <div data-groups="key" class="portfolio-item html">
+            <a href="#" class="portfolio-item__link"><img src="img/portfolio.png" alt="" class="portfolio-item__img">
+              <div class="portfolio-overlay">
+                <div class="portfolio-overlay__content">
+                  Открыть
+                </div>
+              </div>
+            </a>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="portfolio-vawe">
+      <img src="img/portfolio-vawe.jpg" alt="">
+    </div>
+    <div class="container">
+      <div class="contact-title">Контакты</div>
+      <div class="contact-content">
+        <div class="contact-img">
+          <img src="img/contact-illustration.svg" alt="" class="contact-img__item">
+        </div>
+        <form action="" class="form">
+          <input type="text" placeholder="Имя">
+          <input type="email" placeholder="Email">
+          <input type="text" placeholder="Ваше сообщение">
+          <input type="submit" value="Отправить">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-social">
+          <div class="footer-social__item">
+            <img src="img/instagram-f.svg" alt="" class="footer-social__img">
+            <div class="footer-social__title">
+              <a href="#" target="_blank" class="footer-social__link">Instagram</a>
+            </div>
+          </div>
+          <div class="footer-social__item">
+            <img src="img/telegram.svg" alt="" class="footer-social__img">
+            <div class="footer-social__title">
+              <a href="#" target="_blank" class="footer-social__link">Telegram</a>
+            </div>
+          </div>
+          <div class="footer-social__item">
+            <img src="img/vk-f.svg" alt="" class="footer-social__img">
+            <div class="footer-social__title">
+              <a href="#" target="_blank" class="footer-social__link">VK</a>
+            </div>
+          </div>
+        </div>
+        <div class="fast-links">
+          <div class="fast-links__title">
+            Быстрые ссылки
+          </div>
+          <ul class="fast-links__list">
+            <li><a href="#header" id="menuHeader">Главная</a></li>
+            <li><a href="#services" id="menuServices">Сервисы</a></li>
+            <li><a href="#portfolio" id="menuPortfolio">Портфолио</a></li>
+            <li><a href="#contact" id="menuContact">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer-logo logo">
+          <a href="#" class="logo__link">TeCh</a>
+        </div>
+      </div>
+    </div>
+    <img src="img/footer-man.svg" alt="man" class="footer__man">
+  </footer>
+
+  <div class="top-scroll"><img class="top__scroll" src="img/top-arrow.svg" alt=""></div>
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs/isotope.pkgd.min.js"></script>
+  <script src="js/libs/WOW.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
